@@ -9,12 +9,15 @@ website:
     left:
       - href: index.qmd
         text: Report
-      - href: tab-one/tab-one-index.qmd
-        text: Visualizations
+      - href: tab-visualization/visualization-index.qmd
+        text: Visualization
       - href: tab-presentation/presentation-index.qmd
         text: Presentation        
-      - href: tab-iframe/iframe-index.qmd
+      - href: tab-survey/survey-index.qmd
         text: Survey
+      - href: tab-contact/contact-index.qmd
+        text: Contact
+        
     logo: images/logo_tepak.png
 
 format:

@@ -25,5 +25,14 @@
   },
   "tab-iframe/iframe-index.qmd": {
     "iframe-index.html": "bf78c40e"
+  },
+  "tab-survey/survey-index.qmd": {
+    "survey-index.html": "a416eb21"
+  },
+  "tab-visualization/visualization-index.qmd": {
+    "visualization-index.html": "3e6e4c0e"
+  },
+  "tab-contact/contact-index.qmd": {
+    "contact-index.html": "e10ac7f4"
   }
 }
