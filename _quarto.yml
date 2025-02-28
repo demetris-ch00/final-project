@@ -1,0 +1,27 @@
+project:
+  type: website
+  output-dir: docs
+  execute-dir: project
+  
+website:
+  title: "Demetris Charalambous"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Report
+      - href: tab-one/tab-one-index.qmd
+        text: Visualizations
+      - href: tab-presentation/presentation-index.qmd
+        text: Presentation        
+      - href: tab-iframe/iframe-index.qmd
+        text: Survey
+    logo: images/logo_tepak.png
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+
