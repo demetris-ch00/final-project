@@ -1,7 +1,31 @@
 # Digital Habits & Screen Time Survey Report
-
+## Starting Point
+```{=html}
+<style>
+  .video-wrapper {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+    margin: 20px 0;
+  }
+  .video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+</style>
+<div class="video-wrapper">
+  <iframe title="Digital Habits Survey Video"
+    src="https://www.youtube.com/embed/W6CBb3yX9Zs" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+  </iframe>
+</div>
+```
 ## Overview
-
 This report summarizes the synthetic data generated from our "Digital Habits & Screen Time Survey". It includes summary statistics and visualizations that reflect digital habits across different demographics.
 
 ## Data Summary  
