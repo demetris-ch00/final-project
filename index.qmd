@@ -1,4 +1,5 @@
 # Digital Habits & Screen Time Survey Report
+
 ## Starting Point
 ```{=html}
 <style>
@@ -25,6 +26,7 @@
   </iframe>
 </div>
 ```
+
 ## Overview
 This report summarizes the synthetic data generated from our "Digital Habits & Screen Time Survey". It includes summary statistics and visualizations that reflect digital habits across different demographics.
 
@@ -60,6 +62,7 @@ summary_stats <- survey_data %>%
 # Print formatted table
 kable(summary_stats, align = "c", caption = "Summary Statistics by Age Group")
 ```
+
 ## Interpretation
 1. Younger age groups spend significantly more time on screens and experience higher phone-related anxiety.
 
@@ -77,3 +80,34 @@ The 65+ group has the lowest values for both (2.00 screen time, 1.67 phone anxie
 
 ## Conclusion
 The data highlights a strong correlation between age, screen time, and phone anxiety. Younger individuals—especially those under 25—spend the most time on screens and report the highest levels of anxiety related to phone use. As people age, both metrics steadily decline, suggesting that older users may have a more controlled or less emotionally attached relationship with their devices.
+
+## Gallery
+```{=html}
+<div class="iframe-container">
+  <iframe 
+    src="https://albumizr.com/a/QecM"
+    scrolling="no"
+    frameborder="0"
+    allowfullscreen
+    style="border: none;"
+  ></iframe>
+</div>
+
+<style>
+.iframe-container {
+  position: relative;
+  width: 100%;
+  padding-top: 57.14%;
+  margin: 20px 0;
+  overflow: hidden;
+}
+
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+</style>
+```
