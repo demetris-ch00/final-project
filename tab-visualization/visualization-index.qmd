@@ -1,4 +1,4 @@
-# Visualizations
+# Visualization
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
 library(ggplot2)
 library(dplyr)
