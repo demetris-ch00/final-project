@@ -12,7 +12,9 @@ website:
       - href: tab-visualization/visualization-index.qmd
         text: Visualization
       - href: tab-presentation/presentation-index.qmd
-        text: Presentation        
+        text: Presentation
+      - href: tab-analysis/analysis-index.qmd
+        text: Analysis
       - href: tab-survey/survey-index.qmd
         text: Survey
       - href: tab-contact/contact-index.qmd

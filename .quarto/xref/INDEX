@@ -34,5 +34,8 @@
   },
   "tab-contact/contact-index.qmd": {
     "contact-index.html": "e10ac7f4"
+  },
+  "tab-analysis/analysis-index.qmd": {
+    "analysis-index.html": "eb43137c"
   }
 }

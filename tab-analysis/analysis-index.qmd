@@ -1,0 +1,93 @@
+# Analysis
+## Data Exploration
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+
+# Load Required Packages
+library(tidyverse)
+library(tidytext)
+library(kableExtra)
+library(here) # for easy directory paths, defines your root directory 
+
+# Load Dataset
+df <- read_csv(here("fb_reviews.csv"))
+
+# Tokenize and Clean Text
+
+# Tokenization
+df_tokens <- df %>%
+  mutate(review_id = row_number()) %>%  # Create a simple ID for each review
+  unnest_tokens(word, Comments)           # Break reviews into individual words
+
+# Remove Stop Words
+data("stop_words")  # Provided by tidytext
+df_tokens_clean <- df_tokens %>%
+  anti_join(stop_words, by = "word")
+
+# Perform Sentiment Analysis Using AFINN
+
+# The AFINN lexicon assigns an integer score to each word (range: -5 to 5).
+afinn <- get_sentiments("afinn")
+
+# Join tokenized reviews with AFINN to get word-level scores
+df_afinn <- df_tokens_clean %>%
+  inner_join(afinn, by = "word")
+
+# Summarize the sentiment score for each review
+review_scores <- df_afinn %>%
+  group_by(review_id) %>%
+  summarise(sentiment_score = sum(value), .groups = "drop")
+
+# Merge scores back with the original reviews if you want
+df_scored <- df %>%
+  mutate(review_id = row_number()) %>%
+  left_join(review_scores, by = "review_id") %>%
+  # Replace NA scores with 0 for reviews that had no matched words
+  mutate(sentiment_score = if_else(is.na(sentiment_score), 0, sentiment_score))
+
+# Convert Numeric Scores to Positive, Neutral, Negative
+
+# Define categories based on the numeric AFINN score:
+df_scored <- df_scored %>%
+  mutate(
+    sentiment_category = case_when(
+      sentiment_score > 0  ~ "Positive",
+      sentiment_score < 0  ~ "Negative",
+      TRUE                 ~ "Neutral"  # Covers sentiment_score == 0
+    )
+  )
+
+# Save sentiment dataframe
+df_scored %>% 
+  write_csv("fb_reviews_sentiment_afinn.csv")
+
+# View Data Using kableExtra
+df_scored %>%
+  select(review_id, Comments, sentiment_score, sentiment_category) %>%  # Show only relevant columns
+  head(5) %>%
+  kable() %>%
+  kable_styling(full_width = FALSE, 
+                bootstrap_options = c("striped", "hover"))
+
+# Compute sentiment distribution
+sentiment_counts <- df_scored %>% 
+  count(sentiment_category, name = "Count") %>% 
+  mutate(Percentage = round(Count / sum(Count) * 100, 1)) %>% 
+  rename(Sentiment = sentiment_category)
+```
+## Sentiment Distribution
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+# Load Required Packages
+library(tidyverse)
+library(tidytext)
+library(kableExtra)
+library(here) # for easy directory paths, defines your root directory 
+# Display sentiment distribution table
+sentiment_counts %>%
+  kable(format = "html", align = "c") %>%
+  kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover"))
+# Plot Sentiment Distribution
+ggplot(sentiment_counts, aes(x = Sentiment, y = Count, fill = Sentiment)) + 
+  geom_bar(stat = "identity") +
+  labs(title = "Sentiment Distribution", x = "Sentiment", y = "Count") +
+  theme_minimal()
+```
