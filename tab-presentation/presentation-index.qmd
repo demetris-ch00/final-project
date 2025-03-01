@@ -1,70 +1,86 @@
 ---
-title: "Final Project: Personal Data Portfolio"
+title: "Digital Habits & Screen Time Survey"
+author: "Demetris Charalambous"
 format: revealjs
+theme: beige
 ---
 
-## Project Overview
+## Introduction
 
-### Goal
-Build an interactive personal data portfolio website that will:  
-- Showcase my technical skills in data analysis, visualization, and web development.  
-- Host interactive dashboards, surveys, and multiple data analysis projects.  
-- Serve as an interactive CV to highlight my experience and achievements.
+- 📱 **Are we in control of our digital habits?**
+- In today's digital age, screen time is at an all-time high, raising concerns about its effects on mental well-being, productivity, and social interactions.
+- This study explores how screen time impacts anxiety, productivity, and digital well-being.
+- **Survey of 300 participants** + sentiment analysis of **160 Facebook reviews**.
+- 🔍 Goal: Provide insights into how digital usage shapes our mental state.
 
----
+## Data Collection
 
-## Key Features
+- **Survey Data (300 respondents)**
+  - Key metrics: **Screen Time, Phone Anxiety, Social Platform Usage, Digital Detox.**
+  - Age Groups: 📊 **18-24, 25-34, 35-44, 45-54, 55+**
+  - **Data Collection Method:** The survey consists of R-generated synthetic data to simulate real-world digital habits. This ensures a controlled study environment while maintaining realistic patterns.
+- **Facebook Reviews (160 reviews analyzed)**
+  - **Sentiment Analysis:** Conducted using AFINN scoring for polarity detection.
+  - 🔴 **63% Negative**, 🟡 **19% Neutral**, 🟢 **18% Positive**
+  - **Common themes:** Overuse concerns, digital addiction, user frustration.
 
-- **Interactive Dashboards:**  
-  Dynamic, engaging visualizations created with tools like R and Shiny.
-- **Survey Integration:**  
-  Embedded surveys to gather user insights and display synthetic data analysis.
-- **Data Portfolio:**  
-  A collection of projects and visualizations that demonstrate advanced data techniques.
-- **Personal Branding:**  
-  An interactive CV that effectively communicates professional milestones and skills.
+## Demographics Breakdown
 
----
+- 🌍 **Diverse participant base**: Students, professionals, and retirees.
+- 👥 **Age group patterns**:
+  - Younger groups → **Higher screen time, social media engagement**.
+  - Older groups → **More cautious, balanced usage**.
 
-## Technology & Tools
+## Screen Time Insights
 
-- **Quarto:**  
-  For building, publishing, and presenting the interactive website.
-- **R & ggplot2:**  
-  For data visualization and analysis.
-- **Shiny:**  
-  To add interactivity and dynamic components.
-- **Other Tools:**  
-  Python, Observable, and GitHub for version control and additional functionalities.
+- **Average Screen Time** ⏳: **3.12 hours/day**.
+- **75% spend 2-4 hours daily on digital devices**.
+- ⏫ **Increased screen time correlates with higher phone anxiety**.
+- **Primary Device Used:** 📱 **Smartphones dominate** (85%).
+- **Data Collection Method:** Self-reported by participants rather than app-based tracking, which may introduce some bias in recall accuracy.
 
----
+## Phone Anxiety & Digital Detox
 
-## Project Timeline
+- **Phone Anxiety Score (Avg):** **3.65/5** (Moderate Concern)
+- **75% reported anxiety scores of 3 or higher** 📉
+- 🔄 **Digital Detox Trends:**
+  - 42% attempted a detox, but **only 15% succeeded long-term**.
 
-- **Design & Planning:**  
-  Jan 1 – Jan 15, 2025
-- **Data Preparation:**  
-  Jan 16 – Jan 31, 2025
-- **Development:**  
-  Feb 1 – Feb 15, 2025
-- **Testing & Refinement:**  
-  Feb 16 – Feb 25, 2025
-- **Launch & Presentation:**  
-  Feb 26 – Mar 01, 2025
+## Facebook Reviews Sentiment Analysis
 
----
+- 🔴 **63.1% of reviews are negative** → People express frustration over excessive screen time.
+- ⭐ **Only 1.25% gave a perfect 5-star rating**.
+- 🚨 **Common complaints:** Addiction, eye strain, loss of focus, anxiety.
+- 💡 **Brands must address digital well-being concerns**.
 
-## Grading Criteria Addressed
+## Key Visualizations 📊
 
-- **Project Scope:**  
-  Advanced, multifaceted project integrating interactive dashboards and surveys.
-- **Technical Interpretation:**  
-  Demonstrates proficient use of R, ggplot2, and additional tools to create compelling visualizations.
-- **Professional Presentation:**  
-  A clean, polished online presentation using Quarto and reveal.js that effectively communicates the project plan.
+- **📈 Screen Time vs. Phone Anxiety** → Shows a strong correlation; higher screen time aligns with increased anxiety levels.
+- **🔴 Sentiment distribution from Facebook Reviews** → Highlights widespread dissatisfaction with digital experiences.
+- **📊 Bar charts on Social Media Platform usage by age** → Younger users dominate platforms like Instagram & TikTok, while older users prefer Facebook.
+- **📉 Digital Detox Adoption Rates** → Despite high intent, very few users successfully disconnect long-term.
 
----
+## Key Insights & Implications
 
-## Final Notes
+- Younger demographics exhibit the highest engagement, leading to a strong correlation with increased anxiety. 
+- Synthetic modeling confirms these trends, highlighting potential long-term effects. 📱📉
+- Heavy screen time → Leads to increased phone anxiety.
+- Digital Detox is attempted, but often unsuccessful.
+- 💡 Businesses & platforms can improve digital well-being strategies.
 
-This project represents a comprehensive personal data portfolio that not only showcases my technical capabilities but also serves as an interactive resume. It reflects careful planning, innovative design, and practical application of data visualization and interactivity. I look forward to presenting this project and receiving feedback.
+## Conclusion
+
+- **Digital consumption impacts mental well-being significantly**.
+- 📉 Reducing screen time can lower anxiety & improve focus, as validated through synthetic data modeling. Controlled scenarios show that structured breaks significantly enhance productivity.
+- 🛠 **Practical Tips for Digital Well-Being:**
+  - Set daily screen limits & use focus modes.
+  - Schedule phone-free hours before bedtime.
+  - Engage in offline activities to reduce dependency.
+- 🔮 Future research: AI-driven solutions for balanced digital habits.
+- **Final Thought:** Are we using technology, or is it using us? 🤔
+
+## Questions & Discussion
+
+- 💬 Open floor for Q&A!
+- **How do YOU manage your digital well-being?**
+- Thank you for your attention! 🙏

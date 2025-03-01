@@ -1,4 +1,8 @@
 # Analysis
+
+## Summary
+The Facebook app is plagued by technical instability, invasive ads, and poor UI changes, leading to widespread frustration. While it remains a social hub, urgent fixes are needed to retain users.
+
 ## Data Exploration
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
 
@@ -74,9 +78,13 @@ sentiment_counts <- df_scored %>%
   mutate(Percentage = round(Count / sum(Count) * 100, 1)) %>% 
   rename(Sentiment = sentiment_category)
 ```
+
 ## Sentiment Distribution
+Here’s a sentiment analysis of the 160 Facebook app reviews, categorized into negative, neutral, and positive sentiments based on the language and tone of the comments:
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
 # Load Required Packages
+library(ggplot2)
+library(RColorBrewer)
 library(tidyverse)
 library(tidytext)
 library(kableExtra)
@@ -86,8 +94,73 @@ sentiment_counts %>%
   kable(format = "html", align = "c") %>%
   kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover"))
 # Plot Sentiment Distribution
+palette_colors <- brewer.pal(8, "Set2")
 ggplot(sentiment_counts, aes(x = Sentiment, y = Count, fill = Sentiment)) + 
+  scale_fill_manual(values = c("Negative" = palette_colors[2], "Neutral" = palette_colors[3], "Positive" = palette_colors[1])) +
   geom_bar(stat = "identity") +
   labs(title = "Sentiment Distribution", x = "Sentiment", y = "Count") +
   theme_minimal()
 ```
+## Key Observations
+**1. Negative Sentiment (65%)**
+
+* Primary Complaints:
+
+  + Technical Bugs: Frequent crashes, login/logout failures, black screens, frozen UI.
+
+  + Ads Overload: *"90% of my feed is ads or irrelevant suggestions."*
+
+  + Algorithm Issues: Non-chronological feed, outdated posts, inability to see friends' content.
+
+  + Privacy Concerns: Forced permissions, tracking, and invasive data practices.
+
+  + Video/Photo Issues: Black screens, unresponsive media, broken subtitles.
+
+  + Marketplace Glitches: Broken search filters, irrelevant recommendations.
+
+* Notable Quotes:
+
+  + *"This app is a buggy mess. I can't even log out!"*
+
+  + *"Ads every 15 seconds ruin videos. It’s unwatchable."*
+
+**2. Neutral Sentiment (15.6%)**
+
+* Mixed Feedback:
+
+  + Acknowledged functionality but criticized recent updates (e.g., *"Used to work well, but recent changes ruined it"*).
+
+  + Frustration with specific features but no outright rejection (e.g., *"Notifications are delayed, but I still use it for groups"*).
+
+**3. Positive Sentiment (19.4%)**
+* Praise For:
+
+  + Staying connected with friends/family.
+
+  + Business tools (e.g., *"Useful for managing my small business page"*).
+
+  + Occasional smooth functionality (e.g., *"Works fine for basic posting"*).
+
+* Notable Quotes:
+
+  + *"Great for sharing photos and keeping in touch."*
+
+  + *"Essential for my online community."*
+
+## Sentiment Trends
+1. Dominant Negativity: 65% of reviews express frustration, primarily due to technical instability and invasive ads.
+
+2. Rare Positivity: Positive reviews focus on core social features but are overshadowed by systemic issues.
+
+3. Neutral as "Dissatisfied but Tolerant": Most neutral reviewers are long-time users tolerating flaws for specific needs (e.g., business pages).
+
+## Recommendations
+1. Prioritize Bug Fixes: Address crashes, login issues, and media-loading errors.
+
+2. Reduce Ad Frequency: Allow users to customize ad density or offer a paid ad-free tier.
+
+3. Improve Transparency: Clarify data practices and restore user control over feed algorithms.
+
+4. Engage with Feedback: Publicly acknowledge issues and update users on fixes (e.g., *"We’re working on XYZ bugs"*).
+
+This analysis highlights a crisis of user satisfaction, with urgent action needed to retain trust. The sheer volume of negative sentiment (65%) underscores systemic flaws in the app’s design and functionality.

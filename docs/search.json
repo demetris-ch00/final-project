@@ -81,7 +81,7 @@
     "href": "index.html",
     "title": "Digital Habits & Screen Time Survey Report",
     "section": "",
-    "text": "This report summarizes the synthetic data generated from our “Digital Habits & Screen Time Survey”. It includes summary statistics and visualizations that reflect digital habits across different demographics.\n\n\n\nScreen Time Scale:\n1 = Less than 2 hours, 5 = More than 8 hours\nPhone Anxiety Scale:\n1 = Strongly disagree, 5 = Strongly agree\n\n\n\nSummary Statistics by Age Group\n\n\nAge_Group\nAvg. Screen Time (1-5)\nAvg. Phone Anxiety (1-5)\n\n\n\n\nUnder 18\n4.21\n4.41\n\n\n18-24\n3.87\n4.62\n\n\n25-34\n2.82\n3.32\n\n\n35-44\n2.81\n3.45\n\n\n45-54\n1.88\n2.29\n\n\n55-64\n1.73\n2.27\n\n\n65+\n2.00\n1.67\n\n\n\n\n\n\n\n\n\nYounger age groups spend significantly more time on screens and experience higher phone-related anxiety.\n\nThe Under 18 group reports the highest screen time (4.21) and phone anxiety (4.41), suggesting a strong dependency on digital devices. The 18-24 group follows closely, with slightly less screen time (3.87) but the highest phone anxiety (4.62), indicating heightened stress or attachment to their phones.\n\nScreen time and phone anxiety gradually decrease with age.\n\nThe 25-34 and 35-44 age groups show a notable drop in screen time (2.82 and 2.81, respectively) and phone anxiety (3.32 and 3.45). This suggests a more balanced relationship with technology compared to younger users.\n\nOlder adults (45+) use screens the least and report the lowest phone anxiety.\n\nThe 45-54 and 55-64 groups show further declines in screen time (1.88 and 1.73) and anxiety (2.29 and 2.27). The 65+ group has the lowest values for both (2.00 screen time, 1.67 phone anxiety), indicating that they may use phones more functionally rather than habitually or emotionally.\n\n\n\nThe data highlights a strong correlation between age, screen time, and phone anxiety. Younger individuals—especially those under 25—spend the most time on screens and report the highest levels of anxiety related to phone use. As people age, both metrics steadily decline, suggesting that older users may have a more controlled or less emotionally attached relationship with their devices."
+    "text": "This report summarizes the synthetic data generated from our “Digital Habits & Screen Time Survey”. It includes summary statistics and visualizations that reflect digital habits across different demographics.\n\n\n\nScreen Time Scale:\n1 = Less than 2 hours, 5 = More than 8 hours\nPhone Anxiety Scale:\n1 = Strongly disagree, 5 = Strongly agree\n\n\n\nSummary Statistics by Age Group\n\n\nAge_Group\nAvg. Screen Time (1-5)\nAvg. Phone Anxiety (1-5)\n\n\n\n\nUnder 18\n4.21\n4.41\n\n\n18-24\n3.87\n4.62\n\n\n25-34\n2.82\n3.32\n\n\n35-44\n2.81\n3.45\n\n\n45-54\n1.88\n2.29\n\n\n55-64\n1.73\n2.27\n\n\n65+\n2.00\n1.67\n\n\n\n\n\n\n\n\n1. Younger age groups spend significantly more time on screens and experience higher phone-related anxiety.\nThe Under 18 group reports the highest screen time (4.21) and phone anxiety (4.41), suggesting a strong dependency on digital devices. The 18-24 group follows closely, with slightly less screen time (3.87) but the highest phone anxiety (4.62), indicating heightened stress or attachment to their phones.\n2. Screen time and phone anxiety gradually decrease with age.\nThe 25-34 and 35-44 age groups show a notable drop in screen time (2.82 and 2.81, respectively) and phone anxiety (3.32 and 3.45). This suggests a more balanced relationship with technology compared to younger users.\n3. Older adults (45+) use screens the least and report the lowest phone anxiety.\nThe 45-54 and 55-64 groups show further declines in screen time (1.88 and 1.73) and anxiety (2.29 and 2.27). The 65+ group has the lowest values for both (2.00 screen time, 1.67 phone anxiety), indicating that they may use phones more functionally rather than habitually or emotionally.\n\n\n\nThe data highlights a strong correlation between age, screen time, and phone anxiety. Younger individuals—especially those under 25—spend the most time on screens and report the highest levels of anxiety related to phone use. As people age, both metrics steadily decline, suggesting that older users may have a more controlled or less emotionally attached relationship with their devices."
   },
   {
     "objectID": "index.html#overview",
@@ -102,7 +102,7 @@
     "href": "index.html#interpretation",
     "title": "Digital Habits & Screen Time Survey Report",
     "section": "",
-    "text": "Younger age groups spend significantly more time on screens and experience higher phone-related anxiety.\n\nThe Under 18 group reports the highest screen time (4.21) and phone anxiety (4.41), suggesting a strong dependency on digital devices. The 18-24 group follows closely, with slightly less screen time (3.87) but the highest phone anxiety (4.62), indicating heightened stress or attachment to their phones.\n\nScreen time and phone anxiety gradually decrease with age.\n\nThe 25-34 and 35-44 age groups show a notable drop in screen time (2.82 and 2.81, respectively) and phone anxiety (3.32 and 3.45). This suggests a more balanced relationship with technology compared to younger users.\n\nOlder adults (45+) use screens the least and report the lowest phone anxiety.\n\nThe 45-54 and 55-64 groups show further declines in screen time (1.88 and 1.73) and anxiety (2.29 and 2.27). The 65+ group has the lowest values for both (2.00 screen time, 1.67 phone anxiety), indicating that they may use phones more functionally rather than habitually or emotionally."
+    "text": "1. Younger age groups spend significantly more time on screens and experience higher phone-related anxiety.\nThe Under 18 group reports the highest screen time (4.21) and phone anxiety (4.41), suggesting a strong dependency on digital devices. The 18-24 group follows closely, with slightly less screen time (3.87) but the highest phone anxiety (4.62), indicating heightened stress or attachment to their phones.\n2. Screen time and phone anxiety gradually decrease with age.\nThe 25-34 and 35-44 age groups show a notable drop in screen time (2.82 and 2.81, respectively) and phone anxiety (3.32 and 3.45). This suggests a more balanced relationship with technology compared to younger users.\n3. Older adults (45+) use screens the least and report the lowest phone anxiety.\nThe 45-54 and 55-64 groups show further declines in screen time (1.88 and 1.73) and anxiety (2.29 and 2.27). The 65+ group has the lowest values for both (2.00 screen time, 1.67 phone anxiety), indicating that they may use phones more functionally rather than habitually or emotionally."
   },
   {
     "objectID": "index.html#conclusion",
@@ -116,7 +116,14 @@
     "href": "tab-analysis/analysis-index.html",
     "title": "Analysis",
     "section": "",
-    "text": "review_id\nComments\nsentiment_score\nsentiment_category\n\n\n\n\n1\nCurrently Facebook app looks very bad and boring. It used to be fun to watch videos before, but after the current update, there is no forward and backward option, the black screen gives a sense of futility. Problem No. 2 I can't tell you how many times I have uninstalled and installed for this problem. If you go to any page. After viewing a few pictures, if you want to see any middle picture, it starts showing the first picture repeatedly. Fix it fast this problems.\n-2\nNegative\n\n\n2\nTERRIBLE!!! One of the biggest tech companies in the world and one of the most popular apps in the world and it continues to be absolute garbage. The change made where you have to switch between pages to interact like it's a profile it's something no one wanted or needed but just made this app even more confusing and harder to use. I have events that I have created on multiple pages that I now cannot interact with on a mobile device and have to get on my computer to do it. You'll be gone soon\n-2\nNegative\n\n\n3\nPoor and extremely buggy FB & marketplace. Don't bother posting and viewing their marketplace area either using this app nor using web browser on your mobile device. It is now pretty much unusable. Photo zoom jumps in gallery. You cannot enter any text like price, year, etc in filters to filter. On website, you can only see price option and nothing else. Keyboard covers interface, you can’t see what is being typed & you can't zoom or scroll page. Categories show random items in there, etc.\n-3\nNegative\n\n\n4\nThe app needs fixing too many things are glitchy. Very hard to use especially if you are a group or page admin. Not all things are available that you can do on a PC. With every update it gets worse. They add something but other things that were working either disappear or have problems. I rated a 3 but today I feel it is only a 1. Not happy at all!\n-2\nNegative\n\n\n5\nI used to actually be able to keep touch with friends and family. Now, it's basically all reels and ads, and even when you select the option to \"hide\" them to not see a particular ad anymore, it still pops up. It's getting to the point where I'm about done with facebook. Also, I agree with others that those with auditory issues like me can't see the subtitles on the bottom of videos because of the captions that now hover over it, so that function is basically useless.\n-2\nNegative\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSentiment\nCount\nPercentage\n\n\n\n\nNegative\n104\n65.0\n\n\nNeutral\n25\n15.6\n\n\nPositive\n31\n19.4"
+    "text": "The Facebook app is plagued by technical instability, invasive ads, and poor UI changes, leading to widespread frustration. While it remains a social hub, urgent fixes are needed to retain users.\n\n\n\n\n\n\n\n\nreview_id\nComments\nsentiment_score\nsentiment_category\n\n\n\n\n1\nCurrently Facebook app looks very bad and boring. It used to be fun to watch videos before, but after the current update, there is no forward and backward option, the black screen gives a sense of futility. Problem No. 2 I can't tell you how many times I have uninstalled and installed for this problem. If you go to any page. After viewing a few pictures, if you want to see any middle picture, it starts showing the first picture repeatedly. Fix it fast this problems.\n-2\nNegative\n\n\n2\nTERRIBLE!!! One of the biggest tech companies in the world and one of the most popular apps in the world and it continues to be absolute garbage. The change made where you have to switch between pages to interact like it's a profile it's something no one wanted or needed but just made this app even more confusing and harder to use. I have events that I have created on multiple pages that I now cannot interact with on a mobile device and have to get on my computer to do it. You'll be gone soon\n-2\nNegative\n\n\n3\nPoor and extremely buggy FB & marketplace. Don't bother posting and viewing their marketplace area either using this app nor using web browser on your mobile device. It is now pretty much unusable. Photo zoom jumps in gallery. You cannot enter any text like price, year, etc in filters to filter. On website, you can only see price option and nothing else. Keyboard covers interface, you can’t see what is being typed & you can't zoom or scroll page. Categories show random items in there, etc.\n-3\nNegative\n\n\n4\nThe app needs fixing too many things are glitchy. Very hard to use especially if you are a group or page admin. Not all things are available that you can do on a PC. With every update it gets worse. They add something but other things that were working either disappear or have problems. I rated a 3 but today I feel it is only a 1. Not happy at all!\n-2\nNegative\n\n\n5\nI used to actually be able to keep touch with friends and family. Now, it's basically all reels and ads, and even when you select the option to \"hide\" them to not see a particular ad anymore, it still pops up. It's getting to the point where I'm about done with facebook. Also, I agree with others that those with auditory issues like me can't see the subtitles on the bottom of videos because of the captions that now hover over it, so that function is basically useless.\n-2\nNegative\n\n\n\n\n\n\n\n\n\n\nHere’s a sentiment analysis of the 160 Facebook app reviews, categorized into negative, neutral, and positive sentiments based on the language and tone of the comments:\n\n\n\n\n\nSentiment\nCount\nPercentage\n\n\n\n\nNegative\n104\n65.0\n\n\nNeutral\n25\n15.6\n\n\nPositive\n31\n19.4\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1. Negative Sentiment (65%)\n\nPrimary Complaints:\n\nTechnical Bugs: Frequent crashes, login/logout failures, black screens, frozen UI.\nAds Overload: “90% of my feed is ads or irrelevant suggestions.”\nAlgorithm Issues: Non-chronological feed, outdated posts, inability to see friends’ content.\nPrivacy Concerns: Forced permissions, tracking, and invasive data practices.\nVideo/Photo Issues: Black screens, unresponsive media, broken subtitles.\nMarketplace Glitches: Broken search filters, irrelevant recommendations.\n\nNotable Quotes:\n\n“This app is a buggy mess. I can’t even log out!”\n“Ads every 15 seconds ruin videos. It’s unwatchable.”\n\n\n2. Neutral Sentiment (15.6%)\n\nMixed Feedback:\n\nAcknowledged functionality but criticized recent updates (e.g., “Used to work well, but recent changes ruined it”).\nFrustration with specific features but no outright rejection (e.g., “Notifications are delayed, but I still use it for groups”).\n\n\n3. Positive Sentiment (19.4%) * Praise For:\n\nStaying connected with friends/family.\nBusiness tools (e.g., “Useful for managing my small business page”).\nOccasional smooth functionality (e.g., “Works fine for basic posting”).\nNotable Quotes:\n\n“Great for sharing photos and keeping in touch.”\n“Essential for my online community.”\n\n\n\n\n\n\nDominant Negativity: 65% of reviews express frustration, primarily due to technical instability and invasive ads.\nRare Positivity: Positive reviews focus on core social features but are overshadowed by systemic issues.\nNeutral as “Dissatisfied but Tolerant”: Most neutral reviewers are long-time users tolerating flaws for specific needs (e.g., business pages).\n\n\n\n\n\nPrioritize Bug Fixes: Address crashes, login issues, and media-loading errors.\nReduce Ad Frequency: Allow users to customize ad density or offer a paid ad-free tier.\nImprove Transparency: Clarify data practices and restore user control over feed algorithms.\nEngage with Feedback: Publicly acknowledge issues and update users on fixes (e.g., “We’re working on XYZ bugs”).\n\nThis analysis highlights a crisis of user satisfaction, with urgent action needed to retain trust. The sheer volume of negative sentiment (65%) underscores systemic flaws in the app’s design and functionality."
+  },
+  {
+    "objectID": "tab-analysis/analysis-index.html#summary",
+    "href": "tab-analysis/analysis-index.html#summary",
+    "title": "Analysis",
+    "section": "",
+    "text": "The Facebook app is plagued by technical instability, invasive ads, and poor UI changes, leading to widespread frustration. While it remains a social hub, urgent fixes are needed to retain users."
   },
   {
     "objectID": "tab-analysis/analysis-index.html#data-exploration",
@@ -130,7 +137,28 @@
     "href": "tab-analysis/analysis-index.html#sentiment-distribution",
     "title": "Analysis",
     "section": "",
-    "text": "Sentiment\nCount\nPercentage\n\n\n\n\nNegative\n104\n65.0\n\n\nNeutral\n25\n15.6\n\n\nPositive\n31\n19.4"
+    "text": "Here’s a sentiment analysis of the 160 Facebook app reviews, categorized into negative, neutral, and positive sentiments based on the language and tone of the comments:\n\n\n\n\n\nSentiment\nCount\nPercentage\n\n\n\n\nNegative\n104\n65.0\n\n\nNeutral\n25\n15.6\n\n\nPositive\n31\n19.4"
+  },
+  {
+    "objectID": "tab-analysis/analysis-index.html#key-observations",
+    "href": "tab-analysis/analysis-index.html#key-observations",
+    "title": "Analysis",
+    "section": "",
+    "text": "1. Negative Sentiment (65%)\n\nPrimary Complaints:\n\nTechnical Bugs: Frequent crashes, login/logout failures, black screens, frozen UI.\nAds Overload: “90% of my feed is ads or irrelevant suggestions.”\nAlgorithm Issues: Non-chronological feed, outdated posts, inability to see friends’ content.\nPrivacy Concerns: Forced permissions, tracking, and invasive data practices.\nVideo/Photo Issues: Black screens, unresponsive media, broken subtitles.\nMarketplace Glitches: Broken search filters, irrelevant recommendations.\n\nNotable Quotes:\n\n“This app is a buggy mess. I can’t even log out!”\n“Ads every 15 seconds ruin videos. It’s unwatchable.”\n\n\n2. Neutral Sentiment (15.6%)\n\nMixed Feedback:\n\nAcknowledged functionality but criticized recent updates (e.g., “Used to work well, but recent changes ruined it”).\nFrustration with specific features but no outright rejection (e.g., “Notifications are delayed, but I still use it for groups”).\n\n\n3. Positive Sentiment (19.4%) * Praise For:\n\nStaying connected with friends/family.\nBusiness tools (e.g., “Useful for managing my small business page”).\nOccasional smooth functionality (e.g., “Works fine for basic posting”).\nNotable Quotes:\n\n“Great for sharing photos and keeping in touch.”\n“Essential for my online community.”"
+  },
+  {
+    "objectID": "tab-analysis/analysis-index.html#sentiment-trends",
+    "href": "tab-analysis/analysis-index.html#sentiment-trends",
+    "title": "Analysis",
+    "section": "",
+    "text": "Dominant Negativity: 65% of reviews express frustration, primarily due to technical instability and invasive ads.\nRare Positivity: Positive reviews focus on core social features but are overshadowed by systemic issues.\nNeutral as “Dissatisfied but Tolerant”: Most neutral reviewers are long-time users tolerating flaws for specific needs (e.g., business pages)."
+  },
+  {
+    "objectID": "tab-analysis/analysis-index.html#recommendations",
+    "href": "tab-analysis/analysis-index.html#recommendations",
+    "title": "Analysis",
+    "section": "",
+    "text": "Prioritize Bug Fixes: Address crashes, login issues, and media-loading errors.\nReduce Ad Frequency: Allow users to customize ad density or offer a paid ad-free tier.\nImprove Transparency: Clarify data practices and restore user control over feed algorithms.\nEngage with Feedback: Publicly acknowledge issues and update users on fixes (e.g., “We’re working on XYZ bugs”).\n\nThis analysis highlights a crisis of user satisfaction, with urgent action needed to retain trust. The sheer volume of negative sentiment (65%) underscores systemic flaws in the app’s design and functionality."
   },
   {
     "objectID": "tab-survey/survey-index.html",
@@ -140,46 +168,74 @@
     "text": "Survey"
   },
   {
-    "objectID": "tab-presentation/presentation-index.html#project-overview",
-    "href": "tab-presentation/presentation-index.html#project-overview",
-    "title": "Final Project: Personal Data Portfolio",
-    "section": "Project Overview",
-    "text": "Project Overview\nGoal\nBuild an interactive personal data portfolio website that will:\n- Showcase my technical skills in data analysis, visualization, and web development.\n- Host interactive dashboards, surveys, and multiple data analysis projects.\n- Serve as an interactive CV to highlight my experience and achievements."
+    "objectID": "tab-presentation/presentation-index.html#introduction",
+    "href": "tab-presentation/presentation-index.html#introduction",
+    "title": "Digital Habits & Screen Time Survey",
+    "section": "Introduction",
+    "text": "Introduction\n\n📱 Are we in control of our digital habits?\nIn today’s digital age, screen time is at an all-time high, raising concerns about its effects on mental well-being, productivity, and social interactions.\nThis study explores how screen time impacts anxiety, productivity, and digital well-being.\nSurvey of 300 participants + sentiment analysis of 160 Facebook reviews.\n🔍 Goal: Provide insights into how digital usage shapes our mental state."
   },
   {
-    "objectID": "tab-presentation/presentation-index.html#key-features",
-    "href": "tab-presentation/presentation-index.html#key-features",
-    "title": "Final Project: Personal Data Portfolio",
-    "section": "Key Features",
-    "text": "Key Features\n\nInteractive Dashboards:\nDynamic, engaging visualizations created with tools like R and Shiny.\nSurvey Integration:\nEmbedded surveys to gather user insights and display synthetic data analysis.\nData Portfolio:\nA collection of projects and visualizations that demonstrate advanced data techniques.\nPersonal Branding:\nAn interactive CV that effectively communicates professional milestones and skills."
+    "objectID": "tab-presentation/presentation-index.html#data-collection",
+    "href": "tab-presentation/presentation-index.html#data-collection",
+    "title": "Digital Habits & Screen Time Survey",
+    "section": "Data Collection",
+    "text": "Data Collection\n\nSurvey Data (300 respondents)\n\nKey metrics: Screen Time, Phone Anxiety, Social Platform Usage, Digital Detox.\nAge Groups: 📊 18-24, 25-34, 35-44, 45-54, 55+\nData Collection Method: The survey consists of R-generated synthetic data to simulate real-world digital habits. This ensures a controlled study environment while maintaining realistic patterns.\n\nFacebook Reviews (160 reviews analyzed)\n\nSentiment Analysis: Conducted using AFINN scoring for polarity detection.\n🔴 63% Negative, 🟡 19% Neutral, 🟢 18% Positive\nCommon themes: Overuse concerns, digital addiction, user frustration."
   },
   {
-    "objectID": "tab-presentation/presentation-index.html#technology-tools",
-    "href": "tab-presentation/presentation-index.html#technology-tools",
-    "title": "Final Project: Personal Data Portfolio",
-    "section": "Technology & Tools",
-    "text": "Technology & Tools\n\nQuarto:\nFor building, publishing, and presenting the interactive website.\nR & ggplot2:\nFor data visualization and analysis.\nShiny:\nTo add interactivity and dynamic components.\nOther Tools:\nPython, Observable, and GitHub for version control and additional functionalities."
+    "objectID": "tab-presentation/presentation-index.html#demographics-breakdown",
+    "href": "tab-presentation/presentation-index.html#demographics-breakdown",
+    "title": "Digital Habits & Screen Time Survey",
+    "section": "Demographics Breakdown",
+    "text": "Demographics Breakdown\n\n🌍 Diverse participant base: Students, professionals, and retirees.\n👥 Age group patterns:\n\nYounger groups → Higher screen time, social media engagement.\nOlder groups → More cautious, balanced usage."
   },
   {
-    "objectID": "tab-presentation/presentation-index.html#project-timeline",
-    "href": "tab-presentation/presentation-index.html#project-timeline",
-    "title": "Final Project: Personal Data Portfolio",
-    "section": "Project Timeline",
-    "text": "Project Timeline\n\nDesign & Planning:\nJan 1 – Jan 15, 2025\nData Preparation:\nJan 16 – Jan 31, 2025\nDevelopment:\nFeb 1 – Feb 15, 2025\nTesting & Refinement:\nFeb 16 – Feb 25, 2025\nLaunch & Presentation:\nFeb 26 – Mar 01, 2025"
+    "objectID": "tab-presentation/presentation-index.html#screen-time-insights",
+    "href": "tab-presentation/presentation-index.html#screen-time-insights",
+    "title": "Digital Habits & Screen Time Survey",
+    "section": "Screen Time Insights",
+    "text": "Screen Time Insights\n\nAverage Screen Time ⏳: 3.12 hours/day.\n75% spend 2-4 hours daily on digital devices.\n⏫ Increased screen time correlates with higher phone anxiety.\nPrimary Device Used: 📱 Smartphones dominate (85%).\nData Collection Method: Self-reported by participants rather than app-based tracking, which may introduce some bias in recall accuracy."
   },
   {
-    "objectID": "tab-presentation/presentation-index.html#grading-criteria-addressed",
-    "href": "tab-presentation/presentation-index.html#grading-criteria-addressed",
-    "title": "Final Project: Personal Data Portfolio",
-    "section": "Grading Criteria Addressed",
-    "text": "Grading Criteria Addressed\n\nProject Scope:\nAdvanced, multifaceted project integrating interactive dashboards and surveys.\nTechnical Interpretation:\nDemonstrates proficient use of R, ggplot2, and additional tools to create compelling visualizations.\nProfessional Presentation:\nA clean, polished online presentation using Quarto and reveal.js that effectively communicates the project plan."
+    "objectID": "tab-presentation/presentation-index.html#phone-anxiety-digital-detox",
+    "href": "tab-presentation/presentation-index.html#phone-anxiety-digital-detox",
+    "title": "Digital Habits & Screen Time Survey",
+    "section": "Phone Anxiety & Digital Detox",
+    "text": "Phone Anxiety & Digital Detox\n\nPhone Anxiety Score (Avg): 3.65/5 (Moderate Concern)\n75% reported anxiety scores of 3 or higher 📉\n🔄 Digital Detox Trends:\n\n42% attempted a detox, but only 15% succeeded long-term."
   },
   {
-    "objectID": "tab-presentation/presentation-index.html#final-notes",
-    "href": "tab-presentation/presentation-index.html#final-notes",
-    "title": "Final Project: Personal Data Portfolio",
-    "section": "Final Notes",
-    "text": "Final Notes\nThis project represents a comprehensive personal data portfolio that not only showcases my technical capabilities but also serves as an interactive resume. It reflects careful planning, innovative design, and practical application of data visualization and interactivity. I look forward to presenting this project and receiving feedback."
+    "objectID": "tab-presentation/presentation-index.html#facebook-reviews-sentiment-analysis",
+    "href": "tab-presentation/presentation-index.html#facebook-reviews-sentiment-analysis",
+    "title": "Digital Habits & Screen Time Survey",
+    "section": "Facebook Reviews Sentiment Analysis",
+    "text": "Facebook Reviews Sentiment Analysis\n\n🔴 63.1% of reviews are negative → People express frustration over excessive screen time.\n⭐ Only 1.25% gave a perfect 5-star rating.\n🚨 Common complaints: Addiction, eye strain, loss of focus, anxiety.\n💡 Brands must address digital well-being concerns."
+  },
+  {
+    "objectID": "tab-presentation/presentation-index.html#key-visualizations",
+    "href": "tab-presentation/presentation-index.html#key-visualizations",
+    "title": "Digital Habits & Screen Time Survey",
+    "section": "Key Visualizations 📊",
+    "text": "Key Visualizations 📊\n\n📈 Screen Time vs. Phone Anxiety → Shows a strong correlation; higher screen time aligns with increased anxiety levels.\n🔴 Sentiment distribution from Facebook Reviews → Highlights widespread dissatisfaction with digital experiences.\n📊 Bar charts on Social Media Platform usage by age → Younger users dominate platforms like Instagram & TikTok, while older users prefer Facebook.\n📉 Digital Detox Adoption Rates → Despite high intent, very few users successfully disconnect long-term."
+  },
+  {
+    "objectID": "tab-presentation/presentation-index.html#key-insights-implications",
+    "href": "tab-presentation/presentation-index.html#key-insights-implications",
+    "title": "Digital Habits & Screen Time Survey",
+    "section": "Key Insights & Implications",
+    "text": "Key Insights & Implications\n\nYounger demographics exhibit the highest engagement, leading to a strong correlation with increased anxiety.\nSynthetic modeling confirms these trends, highlighting potential long-term effects. 📱📉\nHeavy screen time → Leads to increased phone anxiety.\nDigital Detox is attempted, but often unsuccessful.\n💡 Businesses & platforms can improve digital well-being strategies."
+  },
+  {
+    "objectID": "tab-presentation/presentation-index.html#conclusion",
+    "href": "tab-presentation/presentation-index.html#conclusion",
+    "title": "Digital Habits & Screen Time Survey",
+    "section": "Conclusion",
+    "text": "Conclusion\n\nDigital consumption impacts mental well-being significantly.\n📉 Reducing screen time can lower anxiety & improve focus, as validated through synthetic data modeling. Controlled scenarios show that structured breaks significantly enhance productivity.\n🛠 Practical Tips for Digital Well-Being:\n\nSet daily screen limits & use focus modes.\nSchedule phone-free hours before bedtime.\nEngage in offline activities to reduce dependency.\n\n🔮 Future research: AI-driven solutions for balanced digital habits.\nFinal Thought: Are we using technology, or is it using us? 🤔"
+  },
+  {
+    "objectID": "tab-presentation/presentation-index.html#questions-discussion",
+    "href": "tab-presentation/presentation-index.html#questions-discussion",
+    "title": "Digital Habits & Screen Time Survey",
+    "section": "Questions & Discussion",
+    "text": "Questions & Discussion\n\n💬 Open floor for Q&A!\nHow do YOU manage your digital well-being?\nThank you for your attention! 🙏"
   },
   {
     "objectID": "tab-contact/contact-index.html",
