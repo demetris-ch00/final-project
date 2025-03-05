@@ -7,80 +7,85 @@ theme: beige
 
 ## Introduction
 
-- 📱 **Are we in control of our digital habits?**
-- In today's digital age, screen time is at an all-time high, raising concerns about its effects on mental well-being, productivity, and social interactions.
-- This study explores how screen time impacts anxiety, productivity, and digital well-being.
-- **Survey of 300 participants** + sentiment analysis of **160 Facebook reviews**.
-- 🔍 Goal: Provide insights into how digital usage shapes our mental state.
+-   📱 Are we in control of our digital habits?
+-   In today's digital age, screen time is at an all-time high, raising concerns about its effects on mental well-being, productivity, and social interactions.
+-   This study explores how screen time impacts anxiety, productivity, and digital well-being.
+-   Survey of 300 participants & sentiment analysis of 160 Facebook reviews.
+-   🔍 **Goal:** Provide insights into how digital usage shapes our mental state.
 
-## Data Collection
+## Data Collection (I)
 
-- **Survey Data (300 respondents)**
-  - Key metrics: **Screen Time, Phone Anxiety, Social Platform Usage, Digital Detox.**
-  - Age Groups: 📊 **18-24, 25-34, 35-44, 45-54, 55+**
-  - **Data Collection Method:** The survey consists of R-generated synthetic data to simulate real-world digital habits. This ensures a controlled study environment while maintaining realistic patterns.
-- **Facebook Reviews (160 reviews analyzed)**
-  - **Sentiment Analysis:** Conducted using AFINN scoring for polarity detection.
-  - 🔴 **63% Negative**, 🟡 **19% Neutral**, 🟢 **18% Positive**
-  - **Common themes:** Overuse concerns, digital addiction, user frustration.
+-   **Survey data:** 300 respondents
+    -   **Key metrics:** Screen time, phone anxiety, social platform usage, digital detox.
+    -   **Age groups:** 📊 18-24, 25-34, 35-44, 45-54, 55+
+    -   **Data collection method:** The survey consists of R-generated synthetic data to simulate real-world digital habits. This ensures a controlled study environment while maintaining realistic patterns.
+    
+## Data Collection (II)
+
+-   **Facebook reviews:** 160 reviews
+    -   **Sentiment analysis:** Conducted using AFINN scoring for polarity detection.
+    -   🔴 **63% negative**, 🟡 **19% neutral**, 🟢 **18% positive**
+    -   **Common themes:** Overuse concerns, digital addiction, user frustration.
 
 ## Demographics Breakdown
 
-- 🌍 **Diverse participant base**: Students, professionals, and retirees.
-- 👥 **Age group patterns**:
-  - Younger groups → **Higher screen time, social media engagement**.
-  - Older groups → **More cautious, balanced usage**.
+-   🌍 **Diverse participant base**: Students, professionals and retirees.
+-   👥 **Age group patterns**:
+    -   Younger groups → Higher screen time, social media engagement.
+    -   Older groups → More cautious, balanced usage.
 
 ## Screen Time Insights
 
-- **Average Screen Time** ⏳: **3.12 hours/day**.
-- **75% spend 2-4 hours daily on digital devices**.
-- ⏫ **Increased screen time correlates with higher phone anxiety**.
-- **Primary Device Used:** 📱 **Smartphones dominate** (85%).
-- **Data Collection Method:** Self-reported by participants rather than app-based tracking, which may introduce some bias in recall accuracy.
+-   **Average screen time** ⏳: 3.12 hours/day.
+-   75% spend 2-4 hours daily on digital devices.
+-   ⏫ Increased screen time correlates with higher phone anxiety.
+-   **Primary device used:** 📱 Smartphones dominate (85%).
 
 ## Phone Anxiety & Digital Detox
 
-- **Phone Anxiety Score (Avg):** **3.65/5** (Moderate Concern)
-- **75% reported anxiety scores of 3 or higher** 📉
-- 🔄 **Digital Detox Trends:**
-  - 42% attempted a detox, but **only 15% succeeded long-term**.
+-   **Phone anxiety score (avg):** 3.65/5 (Moderate concern)
+-   75% reported anxiety scores of 3 or higher 📈
+-   🔄 **Digital detox trends:**
+    -   42% attempted a detox, but only 15% succeeded long-term.
 
 ## Facebook Reviews Sentiment Analysis
 
-- 🔴 **63.1% of reviews are negative** → People express frustration over excessive screen time.
-- ⭐ **Only 1.25% gave a perfect 5-star rating**.
-- 🚨 **Common complaints:** Addiction, eye strain, loss of focus, anxiety.
-- 💡 **Brands must address digital well-being concerns**.
+-   🔴 63.1% of reviews are negative → People express frustration over excessive screen time.
+-   ⭐ Only 1.25% gave a perfect 5-star rating.
+-   🚨 **Common complaints:** Addiction, eye strain, loss of focus, anxiety.
+-   💡 Brands must address digital well-being concerns.
 
-## Key Visualizations 📊
+## Key Visualizations
 
-- **📈 Screen Time vs. Phone Anxiety** → Shows a strong correlation; higher screen time aligns with increased anxiety levels.
-- **🔴 Sentiment distribution from Facebook Reviews** → Highlights widespread dissatisfaction with digital experiences.
-- **📊 Bar charts on Social Media Platform usage by age** → Younger users dominate platforms like Instagram & TikTok, while older users prefer Facebook.
-- **📉 Digital Detox Adoption Rates** → Despite high intent, very few users successfully disconnect long-term.
+-   📈 Screen time vs. phone anxiety → Shows a strong correlation; higher screen time aligns with increased anxiety levels.
+-   🔴 Sentiment distribution from Facebook reviews → Highlights widespread dissatisfaction with digital experiences.
+-   📊 Bar charts on social media platform usage by age → Younger users dominate platforms like Instagram & TikTok, while older users prefer Facebook.
+-   📉 Digital detox adoption rates → Despite high intent, very few users successfully disconnect long-term.
 
 ## Key Insights & Implications
 
-- Younger demographics exhibit the highest engagement, leading to a strong correlation with increased anxiety. 
-- Synthetic modeling confirms these trends, highlighting potential long-term effects. 📱📉
-- Heavy screen time → Leads to increased phone anxiety.
-- Digital Detox is attempted, but often unsuccessful.
-- 💡 Businesses & platforms can improve digital well-being strategies.
+-   Younger demographics exhibit the highest engagement, leading to a strong correlation with increased anxiety.
+-   Synthetic modeling confirms these trends, highlighting potential long-term effects. 📱
+-   Heavy screen time → Leads to increased phone anxiety.
+-   Digital detox is attempted, but often unsuccessful.
+-   💡 Businesses & platforms can improve digital well-being strategies.
 
-## Conclusion
+## Conclusion (I)
 
-- **Digital consumption impacts mental well-being significantly**.
-- 📉 Reducing screen time can lower anxiety & improve focus, as validated through synthetic data modeling. Controlled scenarios show that structured breaks significantly enhance productivity.
-- 🛠 **Practical Tips for Digital Well-Being:**
-  - Set daily screen limits & use focus modes.
-  - Schedule phone-free hours before bedtime.
-  - Engage in offline activities to reduce dependency.
-- 🔮 Future research: AI-driven solutions for balanced digital habits.
-- **Final Thought:** Are we using technology, or is it using us? 🤔
+-   Digital consumption impacts mental well-being significantly.
+-   📉 Reducing screen time can lower anxiety & improve focus, as validated through synthetic data modeling. Controlled scenarios show that structured breaks significantly enhance productivity.
+
+## Conclusion (II)
+
+-   🛠 **Practical tips for digital well-being:**
+    -   Set daily screen limits & use focus modes.
+    -   Schedule phone-free hours before bedtime.
+    -   Engage in offline activities to reduce dependency.
+-   🔮 **Future research:** AI-driven solutions for balanced digital habits.
+-   **Final thought:** Are we using technology, or is it using us? 🤔
 
 ## Questions & Discussion
 
-- 💬 Open floor for Q&A!
-- **How do YOU manage your digital well-being?**
-- Thank you for your attention! 🙏
+-   💬 Open floor for Q&A!
+-   How do you manage your digital well-being?
+-   Thank you for your attention! 🙏

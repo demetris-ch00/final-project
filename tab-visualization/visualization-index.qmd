@@ -2,65 +2,128 @@
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
 library(ggplot2)
 library(dplyr)
-library(scales)
 library(RColorBrewer)
 
+# Load and prepare data
 survey_data <- read.csv("digital_habits_survey.csv")
-
 age_levels <- c("Under 18", "18-24", "25-34", "35-44", "45-54", "55-64", "65+")
 survey_data$Age_Group <- factor(survey_data$Age_Group, levels = age_levels, ordered = TRUE)
-
-# Define a consistent color palette (Set2)
 palette_colors <- brewer.pal(8, "Set2")
 
-# Bar Chart: Average Screen Time by Age Group
+### 1. Average Screen Time by Age Group ###
 screen_time_avg <- survey_data %>%
   group_by(Age_Group) %>%
-  summarise(Avg_Screen_Time = mean(Screen_Time, na.rm=TRUE))
+  summarise(Avg_Screen_Time = mean(Screen_Time, na.rm = TRUE))
 
 ggplot(screen_time_avg, aes(x = Age_Group, y = Avg_Screen_Time, fill = Age_Group)) +
-  geom_bar(stat = "identity") +
-  scale_fill_manual(values = palette_colors) +  # Apply Set2 manually
+  geom_col() +
+  scale_fill_manual(values = palette_colors, name = "Age Group") +
   theme_minimal() +
   labs(title = "Average Screen Time by Age Group", 
        y = "Avg. Screen Time (1-5)", x = "Age Group") +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
 
-# Line Chart: Phone Anxiety Across Age Groups
+### 2. Phone Anxiety Trend ###
 phone_anxiety_avg <- survey_data %>%
   group_by(Age_Group) %>%
-  summarise(Avg_Phone_Anxiety = mean(Phone_Anxiety, na.rm=TRUE))
+  summarise(Avg_Phone_Anxiety = mean(Phone_Anxiety, na.rm = TRUE))
 
 ggplot(phone_anxiety_avg, aes(x = Age_Group, y = Avg_Phone_Anxiety, group = 1)) +
-  geom_line(color = "blue", size = 1) +
-  geom_point(size = 3, color = "red") +
+  geom_line(color = palette_colors[1], size = 1) +
+  geom_point(size = 3, color = palette_colors[2]) +
   theme_minimal() +
   labs(title = "Phone Anxiety Across Age Groups", 
        y = "Avg. Phone Anxiety (1-5)", x = "Age Group") +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
 
-# Grouped Bar Chart: Social Platform Usage by Age Group
-social_platform_count <- survey_data %>%
-  count(Age_Group, Social_Platform)
+### 3. Social Platform Usage ###
+top_platforms <- names(sort(table(survey_data$Social_Platform), decreasing = TRUE))[1:5]
 
-ggplot(social_platform_count, aes(x = Age_Group, y = n, fill = Social_Platform)) +
-  geom_bar(stat = "identity", position = "dodge") +
-  scale_fill_manual(values = palette_colors) +  # Apply Set2
+survey_data %>%
+  filter(Social_Platform %in% top_platforms) %>%
+  count(Age_Group, Social_Platform) %>%
+  ggplot(aes(x = Age_Group, y = n, fill = Social_Platform)) +
+  geom_col(position = "dodge") +
+  scale_fill_manual(values = palette_colors, name = "Social Platform") +
   theme_minimal() +
-  labs(title = "Social Platform Usage by Age Group", y = "Count", x = "Age Group") +
+  labs(title = "Top Social Platforms by Age Group", 
+       y = "Count", x = "Age Group") +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
 
-# Horizontal Bar Chart: Most Common Digital Detox Activities
-digital_detox_count <- survey_data %>%
-  count(Digital_Detox, sort=TRUE) %>%
-  top_n(5, n)
-
-ggplot(digital_detox_count, aes(x = reorder(Digital_Detox, n), y = n, fill = Digital_Detox)) +
-  geom_bar(stat = "identity") +
-  scale_fill_manual(values = palette_colors) +  # Apply Set2
+### 4. Digital Detox Activities ###
+survey_data %>%
+  count(Digital_Detox) %>%
+  top_n(5, n) %>%
+  mutate(Digital_Detox = reorder(Digital_Detox, n)) %>%
+  ggplot(aes(x = Digital_Detox, y = n, fill = Digital_Detox)) +
+  geom_col() +
+  scale_fill_manual(values = palette_colors, name = "Digital Detox") +
   coord_flip() +
   theme_minimal() +
-  labs(title = "Top 5 Most Common Digital Detox Activities", 
-       y = "Count", x = "Activity") +
-  theme(legend.position="none")
+  labs(title = "Top Digital Detox Activities", x = "Activity", y = "Count") +
+  theme(legend.position = "none")
+
+### 5. Primary Devices ###
+survey_data %>%
+  count(Primary_Device) %>%
+  mutate(Primary_Device = reorder(Primary_Device, n)) %>%
+  ggplot(aes(x = Primary_Device, y = n, fill = Primary_Device)) +
+  geom_col() +
+  scale_fill_manual(values = palette_colors, name = "Primary Device") +
+  coord_flip() +
+  theme_minimal() +
+  labs(title = "Primary Devices Used", x = "Device", y = "Count") +
+  theme(legend.position = "none")
+
+### 6. Eye Strain Frequency ###
+eye_strain_order <- c("Never", "Rarely", "Occasionally", "Frequently")
+survey_data$Eye_Strain <- factor(survey_data$Eye_Strain, levels = eye_strain_order)
+
+survey_data %>%
+  count(Age_Group, Eye_Strain) %>%
+  ggplot(aes(x = Age_Group, y = n, fill = Eye_Strain)) +
+  geom_col(position = "dodge") +
+  scale_fill_manual(values = palette_colors, name = "Eye Strain Level") +
+  theme_minimal() +
+  labs(title = "Eye Strain Frequency by Age Group",
+       y = "Count", x = "Age Group") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+### 7. Screen Time Distribution ###
+ggplot(survey_data, aes(x = Age_Group, y = Screen_Time, fill = Age_Group)) +
+  geom_boxplot() +
+  scale_fill_manual(values = palette_colors, name = "Age Group") +
+  theme_minimal() +
+  labs(title = "Screen Time Distribution by Age Group",
+       y = "Screen Time (1-5)", x = "Age Group") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+### 8. Screen Time vs Phone Anxiety ###
+ggplot(survey_data, aes(x = Screen_Time, y = Phone_Anxiety, color = Age_Group)) +
+  geom_jitter(alpha = 0.7, width = 0.15, height = 0.15) +
+  scale_color_manual(values = palette_colors, name = "Age Group") +
+  theme_minimal() +
+  labs(title = "Screen Time vs Phone Anxiety",
+       x = "Screen Time (1-5)", y = "Phone Anxiety (1-5)")
+
+### 9. Favorite Apps ###
+top_apps <- names(sort(table(survey_data$Favorite_App), decreasing = TRUE))[1:5]
+
+survey_data %>%
+  filter(Favorite_App %in% top_apps) %>%
+  count(Age_Group, Favorite_App) %>%
+  ggplot(aes(x = Age_Group, y = n, fill = Favorite_App)) +
+  geom_col(position = "dodge") +
+  scale_fill_manual(values = palette_colors, name = "Favorite App") +
+  theme_minimal() +
+  labs(title = "Favorite Apps by Age Group", y = "Count", x = "Age Group") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+### 10. Screen Time Density ###
+ggplot(survey_data, aes(x = Screen_Time, fill = Age_Group)) +
+  geom_density(alpha = 0.5) +
+  scale_fill_manual(values = palette_colors, name = "Age Group") +
+  theme_minimal() +
+  labs(title = "Screen Time Distribution",
+       x = "Screen Time (1-5)", y = "Density")
 ```

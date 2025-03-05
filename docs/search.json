@@ -172,35 +172,42 @@
     "href": "tab-presentation/presentation-index.html#introduction",
     "title": "Digital Habits & Screen Time Survey",
     "section": "Introduction",
-    "text": "Introduction\n\n📱 Are we in control of our digital habits?\nIn today’s digital age, screen time is at an all-time high, raising concerns about its effects on mental well-being, productivity, and social interactions.\nThis study explores how screen time impacts anxiety, productivity, and digital well-being.\nSurvey of 300 participants + sentiment analysis of 160 Facebook reviews.\n🔍 Goal: Provide insights into how digital usage shapes our mental state."
+    "text": "Introduction\n\n📱 Are we in control of our digital habits?\nIn today’s digital age, screen time is at an all-time high, raising concerns about its effects on mental well-being, productivity, and social interactions.\nThis study explores how screen time impacts anxiety, productivity, and digital well-being.\nSurvey of 300 participants & sentiment analysis of 160 Facebook reviews.\n🔍 Goal: Provide insights into how digital usage shapes our mental state."
   },
   {
-    "objectID": "tab-presentation/presentation-index.html#data-collection",
-    "href": "tab-presentation/presentation-index.html#data-collection",
+    "objectID": "tab-presentation/presentation-index.html#data-collection-i",
+    "href": "tab-presentation/presentation-index.html#data-collection-i",
     "title": "Digital Habits & Screen Time Survey",
-    "section": "Data Collection",
-    "text": "Data Collection\n\nSurvey Data (300 respondents)\n\nKey metrics: Screen Time, Phone Anxiety, Social Platform Usage, Digital Detox.\nAge Groups: 📊 18-24, 25-34, 35-44, 45-54, 55+\nData Collection Method: The survey consists of R-generated synthetic data to simulate real-world digital habits. This ensures a controlled study environment while maintaining realistic patterns.\n\nFacebook Reviews (160 reviews analyzed)\n\nSentiment Analysis: Conducted using AFINN scoring for polarity detection.\n🔴 63% Negative, 🟡 19% Neutral, 🟢 18% Positive\nCommon themes: Overuse concerns, digital addiction, user frustration."
+    "section": "Data Collection (I)",
+    "text": "Data Collection (I)\n\nSurvey data: 300 respondents\n\nKey metrics: Screen time, phone anxiety, social platform usage, digital detox.\nAge groups: 📊 18-24, 25-34, 35-44, 45-54, 55+\nData collection method: The survey consists of R-generated synthetic data to simulate real-world digital habits. This ensures a controlled study environment while maintaining realistic patterns."
+  },
+  {
+    "objectID": "tab-presentation/presentation-index.html#data-collection-ii",
+    "href": "tab-presentation/presentation-index.html#data-collection-ii",
+    "title": "Digital Habits & Screen Time Survey",
+    "section": "Data Collection (II)",
+    "text": "Data Collection (II)\n\nFacebook reviews: 160 reviews\n\nSentiment analysis: Conducted using AFINN scoring for polarity detection.\n🔴 63% negative, 🟡 19% neutral, 🟢 18% positive\nCommon themes: Overuse concerns, digital addiction, user frustration."
   },
   {
     "objectID": "tab-presentation/presentation-index.html#demographics-breakdown",
     "href": "tab-presentation/presentation-index.html#demographics-breakdown",
     "title": "Digital Habits & Screen Time Survey",
     "section": "Demographics Breakdown",
-    "text": "Demographics Breakdown\n\n🌍 Diverse participant base: Students, professionals, and retirees.\n👥 Age group patterns:\n\nYounger groups → Higher screen time, social media engagement.\nOlder groups → More cautious, balanced usage."
+    "text": "Demographics Breakdown\n\n🌍 Diverse participant base: Students, professionals and retirees.\n👥 Age group patterns:\n\nYounger groups → Higher screen time, social media engagement.\nOlder groups → More cautious, balanced usage."
   },
   {
     "objectID": "tab-presentation/presentation-index.html#screen-time-insights",
     "href": "tab-presentation/presentation-index.html#screen-time-insights",
     "title": "Digital Habits & Screen Time Survey",
     "section": "Screen Time Insights",
-    "text": "Screen Time Insights\n\nAverage Screen Time ⏳: 3.12 hours/day.\n75% spend 2-4 hours daily on digital devices.\n⏫ Increased screen time correlates with higher phone anxiety.\nPrimary Device Used: 📱 Smartphones dominate (85%).\nData Collection Method: Self-reported by participants rather than app-based tracking, which may introduce some bias in recall accuracy."
+    "text": "Screen Time Insights\n\nAverage screen time ⏳: 3.12 hours/day.\n75% spend 2-4 hours daily on digital devices.\n⏫ Increased screen time correlates with higher phone anxiety.\nPrimary device used: 📱 Smartphones dominate (85%)."
   },
   {
     "objectID": "tab-presentation/presentation-index.html#phone-anxiety-digital-detox",
     "href": "tab-presentation/presentation-index.html#phone-anxiety-digital-detox",
     "title": "Digital Habits & Screen Time Survey",
     "section": "Phone Anxiety & Digital Detox",
-    "text": "Phone Anxiety & Digital Detox\n\nPhone Anxiety Score (Avg): 3.65/5 (Moderate Concern)\n75% reported anxiety scores of 3 or higher 📉\n🔄 Digital Detox Trends:\n\n42% attempted a detox, but only 15% succeeded long-term."
+    "text": "Phone Anxiety & Digital Detox\n\nPhone anxiety score (avg): 3.65/5 (Moderate concern)\n75% reported anxiety scores of 3 or higher 📈\n🔄 Digital detox trends:\n\n42% attempted a detox, but only 15% succeeded long-term."
   },
   {
     "objectID": "tab-presentation/presentation-index.html#facebook-reviews-sentiment-analysis",
@@ -213,29 +220,36 @@
     "objectID": "tab-presentation/presentation-index.html#key-visualizations",
     "href": "tab-presentation/presentation-index.html#key-visualizations",
     "title": "Digital Habits & Screen Time Survey",
-    "section": "Key Visualizations 📊",
-    "text": "Key Visualizations 📊\n\n📈 Screen Time vs. Phone Anxiety → Shows a strong correlation; higher screen time aligns with increased anxiety levels.\n🔴 Sentiment distribution from Facebook Reviews → Highlights widespread dissatisfaction with digital experiences.\n📊 Bar charts on Social Media Platform usage by age → Younger users dominate platforms like Instagram & TikTok, while older users prefer Facebook.\n📉 Digital Detox Adoption Rates → Despite high intent, very few users successfully disconnect long-term."
+    "section": "Key Visualizations",
+    "text": "Key Visualizations\n\n📈 Screen time vs. phone anxiety → Shows a strong correlation; higher screen time aligns with increased anxiety levels.\n🔴 Sentiment distribution from Facebook reviews → Highlights widespread dissatisfaction with digital experiences.\n📊 Bar charts on social media platform usage by age → Younger users dominate platforms like Instagram & TikTok, while older users prefer Facebook.\n📉 Digital detox adoption rates → Despite high intent, very few users successfully disconnect long-term."
   },
   {
     "objectID": "tab-presentation/presentation-index.html#key-insights-implications",
     "href": "tab-presentation/presentation-index.html#key-insights-implications",
     "title": "Digital Habits & Screen Time Survey",
     "section": "Key Insights & Implications",
-    "text": "Key Insights & Implications\n\nYounger demographics exhibit the highest engagement, leading to a strong correlation with increased anxiety.\nSynthetic modeling confirms these trends, highlighting potential long-term effects. 📱📉\nHeavy screen time → Leads to increased phone anxiety.\nDigital Detox is attempted, but often unsuccessful.\n💡 Businesses & platforms can improve digital well-being strategies."
+    "text": "Key Insights & Implications\n\nYounger demographics exhibit the highest engagement, leading to a strong correlation with increased anxiety.\nSynthetic modeling confirms these trends, highlighting potential long-term effects. 📱\nHeavy screen time → Leads to increased phone anxiety.\nDigital detox is attempted, but often unsuccessful.\n💡 Businesses & platforms can improve digital well-being strategies."
   },
   {
-    "objectID": "tab-presentation/presentation-index.html#conclusion",
-    "href": "tab-presentation/presentation-index.html#conclusion",
+    "objectID": "tab-presentation/presentation-index.html#conclusion-i",
+    "href": "tab-presentation/presentation-index.html#conclusion-i",
     "title": "Digital Habits & Screen Time Survey",
-    "section": "Conclusion",
-    "text": "Conclusion\n\nDigital consumption impacts mental well-being significantly.\n📉 Reducing screen time can lower anxiety & improve focus, as validated through synthetic data modeling. Controlled scenarios show that structured breaks significantly enhance productivity.\n🛠 Practical Tips for Digital Well-Being:\n\nSet daily screen limits & use focus modes.\nSchedule phone-free hours before bedtime.\nEngage in offline activities to reduce dependency.\n\n🔮 Future research: AI-driven solutions for balanced digital habits.\nFinal Thought: Are we using technology, or is it using us? 🤔"
+    "section": "Conclusion (I)",
+    "text": "Conclusion (I)\n\nDigital consumption impacts mental well-being significantly.\n📉 Reducing screen time can lower anxiety & improve focus, as validated through synthetic data modeling. Controlled scenarios show that structured breaks significantly enhance productivity."
+  },
+  {
+    "objectID": "tab-presentation/presentation-index.html#conclusion-ii",
+    "href": "tab-presentation/presentation-index.html#conclusion-ii",
+    "title": "Digital Habits & Screen Time Survey",
+    "section": "Conclusion (II)",
+    "text": "Conclusion (II)\n\n🛠 Practical tips for digital well-being:\n\nSet daily screen limits & use focus modes.\nSchedule phone-free hours before bedtime.\nEngage in offline activities to reduce dependency.\n\n🔮 Future research: AI-driven solutions for balanced digital habits.\nFinal thought: Are we using technology, or is it using us? 🤔"
   },
   {
     "objectID": "tab-presentation/presentation-index.html#questions-discussion",
     "href": "tab-presentation/presentation-index.html#questions-discussion",
     "title": "Digital Habits & Screen Time Survey",
     "section": "Questions & Discussion",
-    "text": "Questions & Discussion\n\n💬 Open floor for Q&A!\nHow do YOU manage your digital well-being?\nThank you for your attention! 🙏"
+    "text": "Questions & Discussion\n\n💬 Open floor for Q&A!\nHow do you manage your digital well-being?\nThank you for your attention! 🙏"
   },
   {
     "objectID": "tab-contact/contact-index.html",
